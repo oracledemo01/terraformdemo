@@ -1,0 +1,15 @@
+### Authentication details
+export TF_VAR_tenancy_ocid="ocid1.tenancy.oc1..aaaaaaaao4fukne6wc24yer235ln5pmwp4snpr7q4prg7k6byqdkoejeasoa"
+export TF_VAR_user_ocid="ocid1.user.oc1..aaaaaaaa3tcdui2te77f5l7joyvkmv6celm4lmxsccpohfbgj26qosiqpkha"
+export TF_VAR_fingerprint="54:ef:a7:ff:08:ed:9c:11:86:c9:98:fe:58:cd:4b:75"
+export TF_VAR_private_key_path="/home/builder/.terraform.d/oci_api_key.pem"
+  
+### Region
+export TF_VAR_region="us-ashburn-1"
+  
+### Compartment ocid
+export TF_VAR_compartment_ocid="ocid1.compartment.oc1..aaaaaaaabdzgx2k4jppun3d56qvcz7xfc2ytrnzgstrski375xvpnyvi2a7q"
+  
+### Public/private keys used on the instance
+export TF_VAR_ssh_public_key=$(cat exampleTerraform/id_rsa.pub)
+export TF_VAR_ssh_private_key=$(cat exampleTerraform/id_rsa)

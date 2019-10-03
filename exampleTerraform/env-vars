@@ -1,0 +1,15 @@
+### Authentication details
+export TF_VAR_tenancy_ocid="ocid1.tenancy.oc1..aaaaaaaa"
+export TF_VAR_user_ocid="ocid1.user.oc1..aaaaaaa"
+export TF_VAR_fingerprint="29:b1:8b:e4:7a:92:ae:d5"
+export TF_VAR_private_key_path="/home/builder/.terraform.d/oci_api_key.pem"
+  
+### Region
+export TF_VAR_region="us-phoenix-1"
+  
+### Compartment ocid
+export TF_VAR_compartment_ocid="ocid1.tenancy.oc1..aaaa"
+  
+### Public/private keys used on the instance
+export TF_VAR_ssh_public_key=$(cat exampleTerraform/id_rsa.pub)
+export TF_VAR_ssh_private_key=$(cat exampleTerraform/id_rsa)
